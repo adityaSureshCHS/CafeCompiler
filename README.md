@@ -1,2 +1,2 @@
 # OverdoseObservation
-A project for LAHACKS IX -- detection for overdose symptoms from drug usage to prevent the loss of life from drug abuse and aid in police reliability and effectivity while minimizing racial crimes.
+A project for LAHACKS IX -- a web scraper to analyze restaurant content on yelp specifically relating to dietary restrictions to promote transparancy and reduce the risk of allergic or deadly reactions to food.

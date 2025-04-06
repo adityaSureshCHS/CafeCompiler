@@ -19,14 +19,20 @@ from google import genai
 from google.genai import types
 import time
 import http.client as httplib
+from ./keys.gitignore import zenrows_key, scrapfly_key, gemini_key, open_ai_api_key
+#temporary to just push the code, didn't have time for proper safety
+openai.api_key = open_ai_api_key
+
 
 time.sleep(2)
 #import urllib, urllib2, cookielib
 #from urllib.parse import urlencode
 zenrows_key = "358dfed2bf4694f01515f1f58681976fcbc974bf"
+openai.api_key = "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"
 scrapfly_key = "scp-live-b4359144c48c4cb481df363b315a5e08"
 gemini_key = "AIzaSyC1fSufIhh-X7S4pX5HgdwEbFsCoaYVtgc"
 client = ScrapflyClient(key=scrapfly_key)
+opClient = OpenAI(api_key=openai.api_key)
 gemClient = genai.Client(api_key=gemini_key)
 #Tried for 5 hours to change this, for now yelp is anti-scraping so I had to hardcode an alternative :(
 username = "adityasxnflap@gmail.com"

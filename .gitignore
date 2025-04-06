@@ -1,1 +1,5 @@
 frontend/package.json
+zenrows_key = "358dfed2bf4694f01515f1f58681976fcbc974bf"
+scrapfly_key = "scp-live-b4359144c48c4cb481df363b315a5e08"
+gemini_key = "AIzaSyC1fSufIhh-X7S4pX5HgdwEbFsCoaYVtgc"
+openai.api_key = "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"
